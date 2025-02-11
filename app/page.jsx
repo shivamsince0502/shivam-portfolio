@@ -48,7 +48,7 @@ const Home = () => {
 
 const DownloadButton = () => {
   const handleDownload = () => {
-    const filePath = `https://docs.google.com/document/d/1La1bHUycyA5gwm011u1ae1MLpnh_br3RB5aCG391oNE/export?format=pdf`;
+    const filePath = `https://drive.google.com/file/d/1GgzdzPEGl6ZzQhfbog5N_Tjc7VKzuyR7/view?usp=sharing`;
     const link = document.createElement('a');
     link.href = filePath;
     link.download = 'shivam_kumar.pdf'; 
